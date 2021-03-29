@@ -1,0 +1,12 @@
+@import "/scss/normalize.css";
+@import "variables";
+@import "typography";
+@import "hero";
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Barlow", sans-serif;
+}

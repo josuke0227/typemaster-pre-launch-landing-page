@@ -1,0 +1,28 @@
+.description {
+  margin-bottom: 2.4rem;
+}
+
+.description__text {
+  margin: 0;
+}
+
+@media screen and (min-width: $display-tablet) {
+  .description {
+    margin-right: 3.6rem;
+  }
+
+  .description__content-container {
+    display: flex;
+    align-items: center;
+  }
+}
+
+@media screen and (min-width: $display-desktop) {
+  .description {
+    margin-right: 2.7rem;
+  }
+
+  .description__content-container {
+    display: initial;
+  }
+}

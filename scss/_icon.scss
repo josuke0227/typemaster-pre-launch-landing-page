@@ -1,0 +1,29 @@
+.icon-container {
+  border-radius: 16px;
+  display: inline-flex;
+  width: 65px;
+  height: 65px;
+  background: $color-accent;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-battery {
+  width: 31.99px;
+  height: 20px;
+}
+
+.icon-bluetooth {
+  width: 17.68px;
+  height: 27.86px;
+}
+
+.icon-compatible {
+  width: 25.14px;
+  height: 18.24px;
+}
+
+.icon-light {
+  width: 32px;
+  height: 32px;
+}

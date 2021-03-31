@@ -1,0 +1,19 @@
+.block-features {
+  display: grid;
+  grid-row-gap: 6.4rem;
+}
+
+@media screen and (min-width: $display-tablet) {
+  .block-features {
+    grid-template-columns: auto auto;
+    grid-column-gap: 7rem;
+  }
+}
+
+@media screen and (min-width: $display-desktop) {
+  .block-features {
+    grid-row-gap: 0;
+    grid-template-columns: auto auto auto auto;
+    grid-column-gap: 3rem;
+  }
+}

@@ -2,15 +2,16 @@
   border-radius: 8px;
   border: none;
   font-size: 1.6rem;
-  font-weight: 700;
+  font-weight: 600;
   letter-spacing: 1px;
   padding: 1.1rem 1.4rem;
   text-transform: uppercase;
+  min-width: 16rem;
 
   &:hover {
     box-shadow: -5px 5px 3px rgba(0, 0, 0, 0.2);
     transform: translateY(-5px);
-    transition: background 0.25s ease-in;
+    transition: background 0.1s ease-in;
     cursor: pointer;
   }
 

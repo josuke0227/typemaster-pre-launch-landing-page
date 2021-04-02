@@ -104,8 +104,8 @@ p {
     padding-right: 13rem; }
   .hero__image-square {
     display: initial;
-    width: 255;
-    height: 240; } }
+    width: 255px;
+    height: 240px; } }
 
 .description {
   margin-bottom: 2.4rem; }
@@ -229,6 +229,34 @@ p {
 .img {
   border-radius: 25px;
   width: 100%; }
+
+.img-description--left {
+  mix-blend-mode: multiply; }
+
+.description__img-container {
+  display: flex; }
+
+.img-description__container-left {
+  background-color: #f16718;
+  position: relative;
+  left: -24px;
+  border-radius: 25px; }
+
+@media screen and (min-width: 768px) {
+  .img-description__container-left {
+    overflow: hidden;
+    position: static; }
+  .img-description--left {
+    transform: scale(1.3); }
+  .description__img-container {
+    gap: 2.4rem; } }
+
+@media screen and (min-width: 1024px) {
+  .description__img-container {
+    display: grid;
+    grid-template-columns: 9% 18% 36%; }
+  .hero__image--left {
+    justify-self: end; } }
 
 html {
   font-size: 62.5%; }

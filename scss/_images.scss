@@ -2,3 +2,43 @@
   border-radius: 25px;
   width: 100%;
 }
+
+.img-description--left {
+  mix-blend-mode: multiply;
+}
+
+.description__img-container {
+  display: flex;
+}
+
+.img-description__container-left {
+  background-color: $color-accent;
+  position: relative;
+  left: -24px;
+  border-radius: 25px;
+}
+
+@media screen and (min-width: $display-tablet) {
+  .img-description__container-left {
+    overflow: hidden;
+    position: static;
+  }
+
+  .img-description--left {
+    transform: scale(1.3);
+  }
+  .description__img-container {
+    gap: 2.4rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .description__img-container {
+    display: grid;
+    grid-template-columns: 9% 18% 36%;
+  }
+
+  .hero__image--left {
+    justify-self: end;
+  }
+}

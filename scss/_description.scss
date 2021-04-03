@@ -1,5 +1,5 @@
 .description {
-  margin-bottom: 2.4rem;
+  margin: 7.5rem 2.4rem 2.4rem;
 }
 
 .description__text {
@@ -8,7 +8,13 @@
 
 @media screen and (min-width: $display-tablet) {
   .description {
+    display: flex;
+    align-items: center;
     margin-right: 3.6rem;
+  }
+
+  .description__header {
+    margin: 0 12rem 0 0;
   }
 
   .description__content-container {
@@ -18,8 +24,19 @@
 }
 
 @media screen and (min-width: $display-desktop) {
+  .description__header {
+    margin: 0;
+  }
+
   .description {
-    margin-right: 2.7rem;
+    padding: 0 10rem;
+    margin: 0;
+    display: initial;
+    align-self: center;
+  }
+
+  .description__text {
+    margin-top: 2.7rem;
   }
 
   .description__content-container {

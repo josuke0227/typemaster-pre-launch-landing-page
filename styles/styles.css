@@ -220,6 +220,20 @@ p {
   padding: 1.1rem 1.4rem;
   text-transform: uppercase;
   min-width: 16rem; }
+
+.btn-accent {
+  background: #f16718;
+  color: #ffffff; }
+
+.btn-secondary {
+  background: #e8eff2;
+  color: #162542; }
+
+@media screen and (min-width: 768px) {
+  .btn {
+    padding: 1.6rem 2.7rem; } }
+
+@media screen and (min-width: 1024px) {
   .btn:hover {
     box-shadow: -5px 5px 3px rgba(0, 0, 0, 0.2);
     transform: translateY(-5px);
@@ -230,24 +244,12 @@ p {
   .btn:active {
     transform: translateY(0);
     box-shadow: none; }
-
-.btn-accent {
-  background: #f16718;
-  color: #ffffff; }
   .btn-accent:hover {
     background: #ff9b62;
     color: #ffffff; }
-
-.btn-secondary {
-  background: #e8eff2;
-  color: #162542; }
   .btn-secondary:hover {
     background: #162542;
-    color: #ffffff; }
-
-@media screen and (min-width: 768px) {
-  .btn {
-    padding: 1.6rem 2.7rem; } }
+    color: #ffffff; } }
 
 .block-features {
   margin-top: 11rem;

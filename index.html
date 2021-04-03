@@ -5,11 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Frontend Mentor | Typemaster pre-launch landing page</title>
+    <link rel="icon" type="image/png" href="/images/favicon-32x32.png" />
     <link rel="stylesheet" href="/styles/styles.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Barlow:wght@200;500;600;900&display=swap"
       rel="stylesheet"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
   <body>
     <header class="block__header-container">
@@ -25,10 +27,10 @@
           Improve your productivity and gaming without breaking the bank.
           Upgrade to a high quality mechanical typing experience.
         </p>
-        <footer class="hero__footer">
+        <div class="hero__footer">
           <button class="btn btn-accent">Pre-order now</button>
           <span class="footer__text">Release on 5/27</span>
-        </footer>
+        </div>
       </header>
       <picture class="hero__image">
         <source
@@ -175,5 +177,9 @@
         Reserved</span
       >
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

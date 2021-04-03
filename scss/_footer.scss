@@ -1,7 +1,6 @@
 .block__footer {
+  @extend %footer-style-shared;
   text-align: center;
-  color: $color-secondary;
-  font-size: 1.6rem;
   margin-top: 10rem;
   margin-bottom: 5rem;
 }

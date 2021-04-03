@@ -12,11 +12,8 @@
 }
 
 .footer__text {
-  font-size: 1.6rem;
-  font-weight: 600;
-  line-height: 2.6rem;
+  @extend %footer-style-shared;
   text-align: left;
-  color: $color-secondary;
 }
 
 .hero__footer .btn {

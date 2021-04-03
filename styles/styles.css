@@ -1,4 +1,10 @@
 @import url(/scss/normalize.css);
+.footer__text, .block__footer {
+  color: #7b8bad;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 2.6rem; }
+
 h1,
 h2,
 h3 {
@@ -62,11 +68,7 @@ p {
   margin-top: 3.2rem; }
 
 .footer__text {
-  font-size: 1.6rem;
-  font-weight: 600;
-  line-height: 2.6rem;
-  text-align: left;
-  color: #7b8bad; }
+  text-align: left; }
 
 .hero__footer .btn {
   margin-right: 1rem; }
@@ -326,8 +328,6 @@ p {
 
 .block__footer {
   text-align: center;
-  color: #7b8bad;
-  font-size: 1.6rem;
   margin-top: 10rem;
   margin-bottom: 5rem; }
 

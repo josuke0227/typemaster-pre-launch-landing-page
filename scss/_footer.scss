@@ -1,0 +1,21 @@
+.block__footer {
+  text-align: center;
+  color: $color-secondary;
+  font-size: 1.6rem;
+  margin-top: 10rem;
+  margin-bottom: 5rem;
+}
+
+@media screen and (min-width: $display-tablet) {
+  .block__footer {
+    margin-top: 14rem;
+    margin-bottom: 4rem;
+  }
+}
+
+@media screen and (min-width: $display-desktop) {
+  .block__footer {
+    margin-top: 13rem;
+    margin-bottom: 4rem;
+  }
+}

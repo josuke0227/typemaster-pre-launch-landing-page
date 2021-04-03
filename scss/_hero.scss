@@ -44,9 +44,11 @@
   }
 
   .block__hero {
+    margin-top: 6.2rem;
     padding-left: 4rem;
     grid-template-columns: 52% 65%;
     grid-gap: 3rem;
+    grid-row-gap: 0;
   }
 
   .hero__header {
@@ -66,12 +68,18 @@
   }
 
   .hero__header {
-    padding-right: 13rem;
+    padding-right: 4rem;
   }
 
   .hero__image-square {
     display: initial;
     width: 255px;
     height: 240px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .hero__header {
+    padding-right: 13rem;
   }
 }

@@ -14,14 +14,15 @@
 
 @media screen and (min-width: $display-tablet) {
   .feature {
-    margin: 7rem 4rem 0;
-    display: flex;
-    gap: 9rem;
-    align-items: center;
+    margin: 4.8rem 2.4rem 0 0;
   }
 
   .feature__header {
     margin: 0;
+  }
+
+  .feature__text {
+    margin-top: 2.4rem;
   }
 }
 

@@ -11,5 +11,169 @@
       rel="stylesheet"
     />
   </head>
-  <body></body>
+  <body>
+    <header class="block__header-container">
+      <svg class="logo">
+        <use href="images/shared/logo.svg#logo"></use>
+      </svg>
+      <button class="btn btn-secondary">Pre-order now</button>
+    </header>
+    <section class="block__hero">
+      <header class="hero__header">
+        <h1 class="header__title">Typemaster Keybord</h1>
+        <p class="header__text">
+          Improve your productivity and gaming without breaking the bank.
+          Upgrade to a high quality mechanical typing experience.
+        </p>
+        <footer class="hero__footer">
+          <button class="btn btn-accent">Pre-order now</button>
+          <span class="footer__text">Release on 5/27</span>
+        </footer>
+      </header>
+      <picture class="hero__image">
+        <source
+          media="(min-width:1024px)"
+          type="image/jpg"
+          srcset="
+            images/desktop/image-keyboard.jpg    1x,
+            images/desktop/image-keyboard@2x.jpg 2x
+          "
+        />
+        <source
+          type="image/jpg"
+          srcset="
+            images/mobile/image-keyboard.jpg    1x,
+            images/mobile/image-keyboard@2x.jpg 2x
+          "
+        />
+        <img class="img" src="images/mobile/image-keyboard.jpg" alt="" />
+      </picture>
+      <svg class="hero__image-square">
+        <use href="images/shared/pattern-square.svg#pattern-square"></use>
+      </svg>
+    </section>
+    <section class="block__description">
+      <div class="description__img-container">
+        <svg class="hero__image-square hero__image--left">
+          <use href="images/shared/pattern-square.svg#pattern-square"></use>
+        </svg>
+        <picture class="img-description__container-left">
+          <source
+            media="(min-width:1024px)"
+            type="image/jpg"
+            srcset="
+              images/desktop/image-phone-and-keyboard.jpg    1x,
+              images/desktop/image-phone-and-keyboard@2x.jpg 2x
+            "
+          />
+          <source
+            type="image/jpg"
+            srcset="
+              images/mobile/image-phone-and-keyboard.jpg    1x,
+              images/mobile/image-phone-and-keyboard@2x.jpg 2x
+            "
+          />
+          <img
+            class="img img-description--left"
+            src="images/mobile/image-keyboard.jpg"
+            alt=""
+          />
+        </picture>
+        <picture class="">
+          <source
+            media="(min-width:1024px)"
+            type="image/jpg"
+            srcset="
+              images/desktop/image-glass-and-keyboard.jpg    1x,
+              images/desktop/image-glass-and-keyboard@2x.jpg 2x
+            "
+          />
+          <source
+            type="image/jpg"
+            srcset="
+              images/mobile/image-glass-and-keyboard.jpg    1x,
+              images/mobile/image-glass-and-keyboard@2x.jpg 2x
+            "
+          />
+          <img class="img" src="images/mobile/image-keyboard.jpg" alt="" />
+        </picture>
+      </div>
+      <article class="feature">
+        <h3 class="feature__header">Mechanical wireless keyboard</h3>
+        <p class="feature__text">
+          The Typemaster keyboard boasts top-notch build and practical design.
+          It offers a wide variety of switches and keycaps, along with reliable
+          wireless connectivity.
+        </p>
+      </article>
+    </section>
+    <section class="block-features">
+      <div>
+        <span class="icon-container">
+          <svg class="icon-compatible">
+            <use href="images/shared/sprite.svg#icon-compatible"></use>
+          </svg>
+        </span>
+        <article class="feature">
+          <h3 class="feature__header">Highly compatible</h3>
+          <p class="feature__text">
+            Easy to use and works well with all major computer brands, gaming
+            consoles and mobile devices. Plug & play, no installation or driver
+            needed.
+          </p>
+        </article>
+      </div>
+      <div>
+        <span class="icon-container">
+          <svg class="icon-bluetooth">
+            <use href="images/shared/sprite.svg#icon-bluetooth"></use>
+          </svg>
+        </span>
+        <article class="feature">
+          <h3 class="feature__header">Wireless with bluetooth</h3>
+          <p class="feature__text">
+            Powerful 2.4G RF technology allows you to connect the cordless
+            keyboard from up to 30ft away. Simply plug the unifying receiver
+            into your computer.
+          </p>
+        </article>
+      </div>
+      <div>
+        <span class="icon-container">
+          <svg class="icon-battery">
+            <use href="images/shared/sprite.svg#icon-battery"></use>
+          </svg>
+        </span>
+        <article class="feature">
+          <h3 class="feature__header">High Capacity Battery</h3>
+          <p class="feature__text">
+            Equipped with a long-lasting built-in battery, you’ll never have to
+            spend a dime on replaceable ones.  Enjoy 40 hours of usage time
+            between charges.
+          </p>
+        </article>
+      </div>
+      <div>
+        <span class="icon-container">
+          <svg class="icon-light">
+            <use href="images/shared/sprite.svg#icon-light"></use>
+          </svg>
+        </span>
+        <article class="feature">
+          <h3 class="feature__header">RGB backlit modes</h3>
+          <p class="feature__text">
+            Choose from 4 backlight brightness levels and adjustable breathing
+            speed. Each key glows intensely in the dark and helps you type in
+            low light conditions.
+          </p>
+        </article>
+      </div>
+    </section>
+    <footer class="block__footer">
+      <span
+        ><strong> Typemaster 2021 </strong> &nbsp; | &nbsp; All Rights
+        Reserved</span
+      >
+    </footer>
+  </body>
 </html>

@@ -9,8 +9,14 @@
   margin: 2.3rem 2.3rem 0;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: $display-tablet) {
   .block__header-container {
     margin: 2.3rem 16.5rem 0;
+  }
+}
+
+@media screen and (min-width: $display-desktop) {
+  .block__header-container {
+    margin-top: 5.5rem;
   }
 }

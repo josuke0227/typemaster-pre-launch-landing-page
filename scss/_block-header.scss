@@ -7,10 +7,12 @@
   display: flex;
   justify-content: space-between;
   margin: 2.3rem 2.3rem 0;
+  min-height: 5vh;
 }
 
 @media screen and (min-width: $display-tablet) {
   .block__header-container {
+    min-height: unset;
     margin: 2.3rem 16.5rem 0;
   }
 }
